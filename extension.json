@@ -1,0 +1,19 @@
+{
+    "name": "NoteThief",
+    "version": "1.0.0",
+    "command_name": "notethief",
+    "extension_author": "an0n_r0",
+    "original_author": "trainr3kt",
+    "repo_url": "https://github.com/trainr3kt/NoteThief",
+    "help": "Grab unsaved Notepad contents",
+    "long_help": "",
+    "depends_on": "coff-loader",
+    "entrypoint": "go",
+    "files": [
+        {
+            "os": "windows",
+            "arch": "amd64",
+            "path": "notethief.o"
+        }
+    ]
+}
